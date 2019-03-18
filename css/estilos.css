@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: 	#FAEBD7;
+  border-radius: 20px 20px 0px 0px;
+}
+
+nav {
+  background-color:#F5DEB3;
+  text-align: center;
+  font-size: 28px;
+}
+
+section {
+  background-color: #FFFAFA;
+}
+nav> a {
+  color: black;
+}
+
+a:hover {
+  background-color: #FFB6C1;
+}
+
+span > img {
+  height: 250px;
+  width: 250px;
+}
+
+.enlaces > a {
+  font-size: 50px;
+
+}
+
+@media (min-width:750px) and (max-width:999px) {
+  span > img {
+  margin:10px auto;
+	display:block;
+  }
+}
+
+@media (min-width:750px) and (max-width:999px) {
+  .enlaces {
+    text-align: center;
+  }
+}
